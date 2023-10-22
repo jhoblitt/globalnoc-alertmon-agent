@@ -1,0 +1,6 @@
+{
+  "node_name": "rtr.delta.example.net",
+  "service_name": "INTF - xe-0/0/4",
+  "description": "interface is down",
+  "severity": "Critical"
+}

@@ -1,0 +1,6 @@
+{
+  "node_name": "rtr.epsilon.example.net",
+  "service_name": "INTF - xe-0/0/5",
+  "description": "interface is down",
+  "severity": "Critical"
+}

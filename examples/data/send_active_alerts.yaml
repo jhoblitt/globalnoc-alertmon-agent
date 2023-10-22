@@ -1,0 +1,18 @@
+---
+#[]
+- node_name: rtr.alpha.example.net
+  service_name: 'INTF - xe-0/0/1'
+  description: 'interface is down'
+  severity: Critical
+
+- node_name: rtr.beta.example.net
+  #start_time: 1697820415 
+  service_name: 'INTF - xe-0/0/2'
+  description: 'interface is down'
+  severity: Critical
+#
+#- node_name: rtr.gamma.example.net
+#  service_name: 'INTF - xe-0/0/3'
+#  description: 'interface is down'
+#  severity: Critical
+

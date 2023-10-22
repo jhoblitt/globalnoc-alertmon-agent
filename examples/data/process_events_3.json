@@ -1,0 +1,6 @@
+{
+  "node_name": "rtr.alpha.example.net",
+  "service_name": "INTF - xe-0/0/1",
+  "description": "interface is down",
+  "severity": "OK"
+}

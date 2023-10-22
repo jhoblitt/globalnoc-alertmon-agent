@@ -1,0 +1,5 @@
+globalnoc_alertmon_agent/__pycache__/*
+examples/conf/config.yaml
+venv
+dist
+globalnoc_alertmon_agent.egg-info
