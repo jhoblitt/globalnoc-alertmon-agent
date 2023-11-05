@@ -14,7 +14,6 @@ from globalnoc_alertmon_agent import AlertMonAgent, Alert
 script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
     
 config_file = script_dir+"/conf/config.yaml"
-alerts_file = script_dir+"/data/send_active_alerts.yaml"
 
 # read in config file
 with open(config_file, "r") as stream:
@@ -58,7 +57,6 @@ def start_http_server():
 def send_alerts():
     while True:
 
-        # sleep for 5 minutes then send our alerts 
         time.sleep(1 * 30)
 
         print("Sending Alerts...")
