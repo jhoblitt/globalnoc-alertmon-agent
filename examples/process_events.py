@@ -25,7 +25,6 @@ with open(config_file, "r") as stream:
 host = '127.0.0.1'
 port = 8080
 
-#alert_queue = []
 alert_queue = queue.Queue()
 
 # Create a simple HTTP request handler
