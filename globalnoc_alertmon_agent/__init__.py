@@ -3,7 +3,7 @@ import json
 from time import time
 from copy import deepcopy
 
-__version__="1.0.0"
+__version__="1.0.1"
 
 class ConfigError(Exception):
     pass
