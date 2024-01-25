@@ -5,6 +5,7 @@ setup(
   version="1.0.0",
   author="GlobalNOC Systems Engineering",
   author_email="syseng@globalnoc.iu.edu",
+  python_requires='>=3.8.11, <4.0.0',
   description="Facilitates the process of submitting alerts to the GlobalNOC AlertMon system.",
   url="https://github.com/GlobalNOC/globalnoc-alertmon-agent",
   license="Apache License, Version 2.0 ",
